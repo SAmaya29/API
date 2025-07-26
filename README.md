@@ -1,4 +1,4 @@
-# 🎬 Movie API – Spring Boot + WebFlux + TMDB
+# 🎬 Movie API
 
 ¡Bienvenido a **Movie API**!  
 Esta es una **API de películas** desarrollada en **Java + Spring Boot + WebFlux**, que consume datos en tiempo real desde la [API de TheMovieDB (TMDB)](https://www.themoviedb.org/).  
@@ -72,8 +72,8 @@ Obtiene los detalles de la película con el ID `550` (Fight Club).
 
 ### **1. Clonar el repositorio**
 ```bash
-git clone https://github.com/tuusuario/movie-api.git
-cd movie-api/demo
+git clone https://github.com/SAmaya29/API
+cd API/demo
 ```
 
 ### **2. Configurar API Key de TMDB**
@@ -135,7 +135,8 @@ El pipeline de GitHub Actions se ejecuta automáticamente en cada **push** o **p
 ## 📂 Estructura del proyecto
 
 ```
-demo/
+API
+ ├── .github/workflows     # Configuracion de CI/CD
  ├── src/main/java/com/example/demo
  │   ├── controller/       # Controladores REST
  │   ├── service/          # Lógica de negocio
@@ -144,14 +145,6 @@ demo/
  ├── pom.xml               # Dependencias Maven
  └── Dockerfile            # Imagen Docker
 ```
-
----
-
-## 🤓 ¿Por qué WebFlux?
-
-- **Programación reactiva** con `Mono` y `Flux`.
-- **Alto rendimiento** en llamadas concurrentes.
-- **Escalabilidad** en aplicaciones orientadas a microservicios.
 
 ---
 
@@ -166,10 +159,3 @@ demo/
 ## 👨‍💻 Autor
 
 **Sebastián Amaya**  
-💼 [LinkedIn](https://www.linkedin.com/) | 📧 samaya@example.com
-
----
-
-## 📝 Licencia
-
-Este proyecto está bajo la licencia **MIT**.
